@@ -99,7 +99,7 @@ landingPage.style.backgroundImage = `url("02.jpg")`;
   clearInterval(a);
 
 
-document.querySelector(".contact").style.backgroundImage = `url("11.jpg")`
+document.querySelector(".landing-page").style.backgroundImage = `url("02.jpg")`;
 
 setInterval(() => {
   //
@@ -107,7 +107,7 @@ setInterval(() => {
 
   //
   landingPage.style.backgroundImage = `url("${imgsArray[randomNumber]}")`;
-}, 10000);
+}, 5000);
 
 // Select Skills Selector
 let ourSkills = document.querySelector(".skills");
