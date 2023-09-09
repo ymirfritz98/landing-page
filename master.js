@@ -107,7 +107,7 @@ setInterval(() => {
 
   //
   landingPage.style.backgroundImage = `url("${imgsArray[randomNumber]}")`;
-}, 5000);
+}, 8000);
 
 // Select Skills Selector
 let ourSkills = document.querySelector(".skills");
