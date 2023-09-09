@@ -91,6 +91,8 @@ setTimeout(() => {
   landingPage.style.backgroundImage = `url("01.jpg")`;
 }, 0);
 
+document.querySelector(".contact").style.backgroundImage = `url("11.jpg")`
+
 setInterval(() => {
   //
   let randomNumber = Math.floor(Math.random() * imgsArray.length);
