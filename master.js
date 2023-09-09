@@ -87,6 +87,10 @@ let landingPage = document.querySelector(".landing-page");
 // a
 let imgsArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"];
 
+setTimeout(() => {
+  landingPage.style.backgroundImage = `url("01.jpg")`;
+}, 0);
+
 setInterval(() => {
   //
   let randomNumber = Math.floor(Math.random() * imgsArray.length);
